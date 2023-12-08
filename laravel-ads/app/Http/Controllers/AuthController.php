@@ -121,6 +121,7 @@ class AuthController extends Controller
      * Write code on Method
      *
      * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse 
      */
     public function logout() {
         Session::flush();
